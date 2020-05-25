@@ -173,4 +173,10 @@ h1, h2, h3
     {
         width: 100%;
     }
+
+    .container-itens-habilidades
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
   }
