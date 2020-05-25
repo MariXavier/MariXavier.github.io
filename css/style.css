@@ -1,0 +1,117 @@
+body 
+{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3
+{
+    font-family: 'Gochi Hand', sans-serif;
+    color: #070b38;
+}
+
+.cabecalho
+{
+    height:200px; 
+    background-color: #070b38;
+}
+
+.cabecalho-titulo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 60px);
+    justify-content: center;
+}
+
+.cabecalho-titulo h1, 
+.cabecalho-titulo h2 
+{ 
+    margin: 0; 
+    color: white;
+}
+
+.img-avatar
+{
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+    border-radius: 50%;
+    background-color: #52aaa7;
+    border: 2px solid white;
+}
+
+.container-img-avatar
+{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    top: 140px;
+    border: 1px sold;
+}
+
+.centralizado
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fonte-negrito
+{
+    font-weight: bold;
+}
+
+.container-about-me
+{
+    padding-top: 60px;
+}
+
+
+.container-icones
+{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    margin: 10px;
+}
+
+.container-icones img
+{
+    cursor: pointer;
+}
+
+.container-habilidades,
+.container-experiencias
+{
+    background-color: #9e9e9e29 ;
+}
+
+.container-itens-habilidades
+{
+    display: flex;
+}
+
+.container-itens
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.estudo-item
+{
+    margin: 10px;
+}
+
+
+
+.estudo-item label
+{
+    margin: 5px;
+}
+
+
+/* #9e9e9e29 */
